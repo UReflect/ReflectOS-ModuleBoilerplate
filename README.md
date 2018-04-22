@@ -6,8 +6,8 @@
 
 ``` bash
 
-#Init your module project
-./init.sh <project-name>
+#Init your module without cloning
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/UReflect/ReflectOS-ModuleBoilerplate/master/init.sh)" <project-name>
 
 ```
 
