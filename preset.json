@@ -1,9 +1,0 @@
-{
-  "useConfigFiles": true,
-  "router": true,
-  "vuex": true,
-  "cssPreprocessor": "sass",
-  "plugins": {
-    "i18n": {},
-  }
-}
