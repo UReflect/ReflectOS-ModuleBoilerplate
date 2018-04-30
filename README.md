@@ -6,7 +6,6 @@
 
 ```bash
 # Needed dependencies
-
 npm i yarn -g && yarn global add @vue/cli
 ```
 
