@@ -4,5 +4,10 @@ while [ -z "$name" ]; do
     read name
 done
 
-vue create $name && cd $name && yarn && yarn add i18n @drartemi/mc.js reflectos-sdk -D && git init && git add --all && git commit --amend -m "chore: initial commit from @UReflect" --author="uReflect <dev@ureflect.io>";
+vue create $name && cd $name && yarn && yarn add i18n @drartemi/mc.js reflectos-sdk -D
+command -v git >/dev/null 2>&1 || {
+    echo "Error: git is not installed"
+    exit 1
+  }
+git init && git add --all && git commit --amend -m "chore: initial commit from @UReflect" --author="uReflect <dev@ureflect.io>";
 

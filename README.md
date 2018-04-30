@@ -4,6 +4,12 @@
 
 ## Build Setup
 
+```bash
+# Needed dependencies
+
+npm i yarn -g && yarn global add @vue/cli
+```
+
 ``` bash
 
 #Init your module without cloning
