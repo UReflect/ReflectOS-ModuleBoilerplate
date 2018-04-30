@@ -4,5 +4,6 @@ while [ -z "$name" ]; do
     read name
 done
 
+yarn global add @vue/cli
 vue create $name && cd $name && yarn && yarn add i18n @drartemi/mc.js reflectos-sdk -D;
 git init && git add --all && git commit --amend -m "chore: initial commit from @UReflect" --author="uReflect <contact@ureflect.io>";
