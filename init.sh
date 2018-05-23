@@ -1,4 +1,4 @@
-name=""
+name="" 
 while [ -z "$name" ]; do
     printf '\e[1;32m%s\e[m \e[1;37m%s\e[m\n' "?" "Enter the project name: "
     read name
