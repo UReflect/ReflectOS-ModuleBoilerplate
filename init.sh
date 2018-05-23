@@ -4,7 +4,7 @@ while [ -z "$name" ]; do
     read name
 done
 
-vue create $name && cd $name && yarn && yarn add i18n @drartemi/mc.js reflectos-sdk -D
+vue create $name && cd $name && yarn && yarn add vue-i18n @drartemi/mc.js reflectos-sdk -D
 command -v git >/dev/null 2>&1 || {
     echo "Error: git is not installed"
     exit 1
