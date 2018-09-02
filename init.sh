@@ -5,6 +5,7 @@ while [ -z "$name" ]; do
 done
 
 vue create $name && cd $name && yarn && yarn add vue-i18n @drartemi/mc.js reflectos-sdk -D
+vue add electron-builder
 command -v git >/dev/null 2>&1 || {
     echo "Error: git is not installed"
     exit 1
